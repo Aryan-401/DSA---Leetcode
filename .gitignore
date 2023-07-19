@@ -1,0 +1,66 @@
+# Ignore compiled files and build artifacts
+*.o
+*.out
+*.exe
+
+# Ignore generated files
+Makefile
+CMakeLists.txt
+*.cmake
+
+# Ignore editor-specific files and folders
+.vscode/
+*.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+*.sln.docstates
+*.user
+
+# Ignore temporary files
+*~
+
+# Ignore binary files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.ico
+*.pdf
+*.zip
+*.gz
+
+# Ignore backup files
+*.bak
+*.backup
+
+# Ignore specific C++ and C++ compiler-related files
+# Assuming you use g++ or clang++
+*.dSYM/
+*.stackdump
+*.vs/
+*.ipch/
+*.opendb
+*.obj
+*.pdb
+*.ilk
+*.pch
+*.res
+*.sbr
+*.pdb
+*.pgd
+*.pgc
+*.rsp
+
+# Ignore the executable produced from the C++ files
+# Change this line to match your executable name if it differs
+main
+
+# Ignore any other files or directories that you don't want to track
+# Example: Some specific input/output test files
+tests/
