@@ -10,7 +10,7 @@ public:
     {
         // Add your function implementation here
         unordered_map<int, int> m;
-        for (int i = 0; i < nums.size(); i++)
+        for (unsigned int i = 0; i < nums.size(); i++)
         {
             m[nums[i]]++;
         }
@@ -29,7 +29,7 @@ public:
     int removeDuplicatesV2(vector<int> &nums)
     {
         int j = 1;
-        for (int i = 1; i < nums.size(); i++)
+        for (unsigned int i = 1; i < nums.size(); i++)
         {
             if (nums[i] != nums[i - 1])
             {
